@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<windows.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+    int a;
+    printf("Enter a number : ");
+    scanf("%d",&a);
+    int i = 1;
+    for(;i<=a;i++){
+        printf("%d\n",i);
+    }
+    printf("\nPress any key to exit!");
+    getch();
+    return 0;
+}
